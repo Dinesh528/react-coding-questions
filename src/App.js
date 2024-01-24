@@ -1,18 +1,20 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import StopWatch from './components/stop watch/StopWatch';
 import ComponentCleanUp from './components/CleanUp.js';
 import Parent from './components/ChildToParent/Parent.js';
+import TypeAhead from './components/TypeAhead/TypeAhead.jsx';
 
 function App() {
 
 
   return (
-    <div className="App">
-      
-     {/* <StopWatch/>
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+
+      {/* <StopWatch/>
      <ComponentCleanUp/> */}
-    <Parent/>
+      {/* <Parent/> */}
+      <TypeAhead />
     </div>
   );
 }
